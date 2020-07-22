@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		C5F516D324C7966500750DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F516D224C7966500750DD4 /* AppDelegate.swift */; };
 		C5F516D524C7966500750DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F516D424C7966500750DD4 /* SceneDelegate.swift */; };
-		C5F516D724C7966500750DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F516D624C7966500750DD4 /* ViewController.swift */; };
 		C5F516DA24C7966500750DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F516D824C7966500750DD4 /* Main.storyboard */; };
 		C5F516DC24C7966600750DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F516DB24C7966600750DD4 /* Assets.xcassets */; };
 		C5F516DF24C7966600750DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F516DD24C7966600750DD4 /* LaunchScreen.storyboard */; };
 		C5F516EA24C7966600750DD4 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F516E924C7966600750DD4 /* MusicPlayerTests.swift */; };
 		C5F516F524C7966600750DD4 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F516F424C7966600750DD4 /* MusicPlayerUITests.swift */; };
+		C5F5170524C796D800750DD4 /* MusicGenreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F5170424C796D800750DD4 /* MusicGenreButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		C5F516CF24C7966500750DD4 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F516D224C7966500750DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F516D424C7966500750DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5F516D624C7966500750DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5F516D924C7966500750DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5F516DB24C7966600750DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5F516DE24C7966600750DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		C5F516F024C7966600750DD4 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F516F424C7966600750DD4 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		C5F516F624C7966600750DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F5170424C796D800750DD4 /* MusicGenreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGenreButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				C5F516D224C7966500750DD4 /* AppDelegate.swift */,
 				C5F516D424C7966500750DD4 /* SceneDelegate.swift */,
-				C5F516D624C7966500750DD4 /* ViewController.swift */,
 				C5F516D824C7966500750DD4 /* Main.storyboard */,
 				C5F516DB24C7966600750DD4 /* Assets.xcassets */,
 				C5F516DD24C7966600750DD4 /* LaunchScreen.storyboard */,
 				C5F516E024C7966600750DD4 /* Info.plist */,
+				C5F5170424C796D800750DD4 /* MusicGenreButton.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F516D724C7966500750DD4 /* ViewController.swift in Sources */,
 				C5F516D324C7966500750DD4 /* AppDelegate.swift in Sources */,
 				C5F516D524C7966500750DD4 /* SceneDelegate.swift in Sources */,
+				C5F5170524C796D800750DD4 /* MusicGenreButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
